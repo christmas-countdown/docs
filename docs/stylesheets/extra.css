@@ -30,5 +30,6 @@ a code:hover {
 
 .md-announce a, .md-announce a:hover {
 	color: white !important;
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	font-weight: bold;
 }
