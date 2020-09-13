@@ -23,7 +23,7 @@ theme:
   custom_dir: overrides/
   
   palette:
-    scheme: custom
+    scheme: default
     primary: primary
     accent: primary
 
