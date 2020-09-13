@@ -1,4 +1,7 @@
-# Commands
+---
+title: Commands
+description: A list of commands with useful information and usage examples.
+---
 
 ## Arguments
 
