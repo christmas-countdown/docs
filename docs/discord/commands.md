@@ -11,4 +11,9 @@ description: A list of commands with useful information and usage examples.
 
 #### server set
 
-Please see [`settings/server`](./settings/server)
+|aliases|premium?|
+|---|---|
+|`server set`|no|
+
+!!! info
+	For options, see [settings/server](./settings/server).
