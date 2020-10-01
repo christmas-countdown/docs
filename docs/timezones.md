@@ -17,7 +17,7 @@ You can use `x!zones [country]` to list the timezones of your country (eg. `x!zo
 
 The default is `UTC`.
 
-!!! info
+!!! note
 	This assumes you are using the default prefix.
 
 #### Server timezone

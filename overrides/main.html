@@ -1,2 +1,7 @@
 {% extends "base.html" %}
+
 {% block announce %}{% include "announce.html" ignore missing %}{% endblock %}
+
+{% block analytics %}
+<script src="https://try.count.ly/sdk/web/countly.min.js"></script>
+{% endblock %}

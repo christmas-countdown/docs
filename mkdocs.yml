@@ -15,6 +15,8 @@ copyright: '&copy; 2020 Isaac Saunders'
 # Configuration
 extra_css:
     - stylesheets/extra.css
+extra_javascript:
+    - javascripts/extra.js
 
 theme:
   name: material
@@ -32,8 +34,8 @@ theme:
     code: Roboto Mono
 
   features:
-    - instant
-    - tabs
+    - navigation.instant
+    - navigation.tabs
     - navigation.expand
 
   logo: /img/logo.png
@@ -48,6 +50,7 @@ extra:
       link: https://github.com/eartharoid
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/eartharoid
+  discord: https://go.eartharoid.me/discord # {{ discord }} in md
 
 # Google Analytics
 #google_analytics:
@@ -58,6 +61,7 @@ plugins:
   - search # necessary for search to work
   - git-revision-date-localized # last modified date at bottom of page
   - awesome-pages # custom nav order
+  - macros
 
 # Extensions
 markdown_extensions:

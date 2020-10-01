@@ -19,7 +19,7 @@ If your the bot hasn't been translated to your language yet, you can translate t
 
 ### Setting your locale
 
-!!! info
+!!! note
 	This assumes you are using the default prefix.
 
 #### Server locale
