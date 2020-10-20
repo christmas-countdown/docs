@@ -2,7 +2,7 @@
 
 Documentation for eartharoid's Christmas Countdown projects.
 
-## Website
+## Website docs
 
 !!! question "Get help"
 	[Documentation for the website](/website)
@@ -11,16 +11,21 @@ Documentation for eartharoid's Christmas Countdown projects.
 
 The website was originally launched in 2017. It has a live countdown and information for the Discord bot.
 
-## Discord bot
+## Discord bot docs
 
 !!! question "Get help"
 	[Documentation for the Discord bot](/discord)
 
 The original Christmas Countdown bot for Discord, originally launched in 2018.
 
-## API
+## API docs
 
 !!! question "Get help"
 	[Documentation for the API](/api)
 
-**Incomplete.**
+The API is **incomplete**.
+
+## Notice
+
+!!! info "Analytics"
+	Please note that this website collects **anonymous** analytical data. The data is **not** sent to Google or Facebook, it is stored on my own self-hosted analytics service. The data is collected so I can understand usage and improve my services or the documentation if necessary, **not** for selling or giving to "evil corporations". If you don't trust me, you can [opt-out here](javascript:analytics_opt_out();).

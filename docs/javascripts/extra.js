@@ -7,7 +7,8 @@ window.onload = function() {
 	Countly.track_sessions();
 	// Countly.track_pageview(); // won't work with SPA (navigation.instant feature)
 	Countly.track_links();
-	Countly.track_scrolls();
+	// Countly.track_clicks(); // enterprise only
+	// Countly.track_scrolls(); // enterprise only
 	Countly.track_errors();
 
 	Countly.enable_feedback({
@@ -18,3 +19,12 @@ window.onload = function() {
 		Countly.track_pageview(url.pathname); // works with SPA/instant feature
 	});
 };
+
+function analytics_opt_out() {
+	let confirmation = confirm('Are you sure you want to opt-out?\nI promise I\'m not evil!')
+
+	if (confirmation) {
+		Countly.opt_out();
+		alert('You have opted-out of anonymous analytical data collection.');
+	}
+}
