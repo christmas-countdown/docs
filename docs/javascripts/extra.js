@@ -5,7 +5,7 @@ window.onload = function() {
 	});
 
 	Countly.track_sessions();
-	// Countly.track_pageview(); // won't work with SPA - in javascripts/extra.css
+	Countly.track_pageview(); // won't work with SPA (navigation.instant feature)
 	Countly.track_links();
 	Countly.track_scrolls();
 	Countly.track_errors();
@@ -14,8 +14,7 @@ window.onload = function() {
 		'widgets': ['5f762b92c8a81567c38420c0']
 	});
 
-	app.location$.subscribe(function(url) {
-		// console.log(url)
-		Countly.track_pageview(url.pathname);
-	});
+	/* app.location$.subscribe(function(url) {
+		Countly.track_pageview(url.pathname); // works with SPA/instant feature
+	}); */
 };

@@ -4,15 +4,16 @@
 
 > October 31st, 2020
 
-The third generation of ChristmasCountdown - the original Christmas bot for Discord.
+The third generation of the original Christmas Countdown bot for Discord.
 
 ### What's new
 
 Major changes:
 
-- [X] Server & user timezones
-- [X] Server & user locales
-- [X] A single command for configuration
-- [X] Total time left until Christmas command
-- [X] Christmas music radio
-- [X] :star: `auto` setting for guilds - automatically enable the countdown on 1st December
+- [X] Added weeks, hours, minutes, and seconds left commands
+- [X] Added total time left until Christmas command
+- [X] Added server & user timezones
+- [X] Added server & user locales
+- [X] New server & user configuration commands
+<!-- - [X] Added Christmas music radio -->
+- [X] :star: New `auto` setting for premium guilds

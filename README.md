@@ -1,6 +1,6 @@
-# ChristmasCountdown
+# Christmas Countdown
 
-Documentation and shared resources (logos) for my ChristmasCountdown projects - website, Discord bot, and API.
+Documentation and shared resources (logos) for my Christmas Countdown projects - website, Discord bot, and API.
 
 Logo icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [FlatIcon](https://www.flaticon.com/).
 

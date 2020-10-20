@@ -16,7 +16,7 @@ The website was originally launched in 2017. It has a live countdown and informa
 !!! question "Get help"
 	[Documentation for the Discord bot](/discord)
 
-The original ChristmasCountdown bot for Discord, originally launched in 2018.
+The original Christmas Countdown bot for Discord, originally launched in 2018.
 
 ## API
 

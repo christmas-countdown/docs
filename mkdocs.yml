@@ -25,7 +25,7 @@ theme:
   custom_dir: overrides/
   
   palette:
-    scheme: default
+    scheme: custom
     primary: primary
     accent: primary
 
@@ -34,7 +34,7 @@ theme:
     code: Roboto Mono
 
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.tabs
     - navigation.expand
 
