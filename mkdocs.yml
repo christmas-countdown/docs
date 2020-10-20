@@ -34,7 +34,7 @@ theme:
     code: Roboto Mono
 
   features:
-    # - navigation.instant
+    - navigation.instant
     - navigation.tabs
     - navigation.expand
 
