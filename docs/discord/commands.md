@@ -9,6 +9,8 @@ In most cases, hyphens in command names/aliases can be omitted (eg: `total-days`
 
 If you make a mistake when typing a command, instead of re-typing it, you can edit your previous message and the bot will respond to the new message content.
 
+Using `x!help [command]` will give you information about a command. Some commands have examples as part of the additional information.
+
 ## Christmas
 
 ### days
@@ -111,6 +113,12 @@ Get premium by donating.
 
 ### server
 
+Modify server settings.
+
+|Premium?|Aliases|Usage|Required permissions|
+|---|---|---|---|
+|no|`server`|[`server <command> [args]`](../settings/server)|`MANAGE_GUILD`|
+
 #### server setup
 
 Set the basic server settings using the setup prompt. See [server settings](../settings/server) for more information.
@@ -127,14 +135,68 @@ Set your server settings. See [server settings](../settings/server) for more inf
 |---|---|---|---|
 |no|`server set`|[`server set <options>`](../settings/server)|`MANAGE_GUILD`|
 
+__**Examples:**__
+
+- `server set timezone: America/New_York prefix: xmas!`
+- `server set locale: fr-FR timezone: Europe/Paris`
+- `server set channel: #countdown`
+
 #### server reset
+
+Reset your server settings to the default.
+
+|Premium?|Aliases|Usage|Required permissions|
+|---|---|---|---|
+|no|`server reset`|`server reset`|`MANAGE_GUILD`|
 
 ### timezones
 
+List timezones by country code.
+
+|Premium?|Aliases|Usage|
+|---|---|---|
+|no|`timezones`, `zones`|[`timezones [country]`](/timezones)|
+
+__**Examples:**__
+
+- `timezones US`
+- `timezones DE`
+- `zones RU`
+
 ### toggle
+
+Toggle the countdown on/off. The same as changing the `enabled` server setting.
+
+|Premium?|Aliases|Usage|Required permissions|
+|---|---|---|---|
+|no|`toggle`|`toggle`|`MANAGE_GUILD`|
 
 ### user
 
+Modify your personal settings.
+
+|Premium?|Aliases|Usage|
+|---|---|---|
+|no|`user`|[`user <command> [args]`](../settings/user)|
+
 #### user set
 
+Set your personal settings. See [user settings](../settings/user) for more information.
+
+|Premium?|Aliases|Usage|
+|---|---|---|
+|no|`user set`|[`user set <options>`](../settings/user)|
+
+__**Examples:**__
+
+- `server set timezone: America/New_York prefix: xmas!`
+- `server set locale: fr-FR timezone: Europe/Paris`
+- `server set locale: de-DE`
+
 #### user reset
+
+Reset your personal settings to the default (removes you from the database).
+
+|Premium?|Aliases|Usage|
+|---|---|---|
+|no|`user reset`|`user reset`|

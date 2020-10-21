@@ -28,4 +28,6 @@ The API is **incomplete**.
 ## Notice
 
 !!! info "Analytics"
-	Please note that this website collects **anonymous** analytical data. The data is **not** sent to Google or Facebook, it is stored on my own self-hosted analytics service. The data is collected so I can understand usage and improve my services or the documentation if necessary, **not** for selling or giving to "evil corporations". If you don't trust me, you can [opt-out here](javascript:analytics_opt_out();).
+	Please note that this website collects **anonymous** analytical data. The data is **not** sent to Google or Facebook, it is stored on my own self-hosted analytics service. The data is collected so I can understand usage and improve my services or the documentation if necessary, **not** for selling or giving to "evil corporations". If you don't trust me, you can opt-out.
+	
+	[Opt-out](javascript:analytics_opt_out();){: .md-button }

@@ -7,8 +7,8 @@ window.onload = function() {
 	Countly.track_sessions();
 	// Countly.track_pageview(); // won't work with SPA (navigation.instant feature)
 	Countly.track_links();
-	// Countly.track_clicks(); // enterprise only
-	// Countly.track_scrolls(); // enterprise only
+	Countly.track_clicks(); // enterprise only
+	Countly.track_scrolls(); // enterprise only
 	Countly.track_errors();
 
 	Countly.enable_feedback({
@@ -18,6 +18,14 @@ window.onload = function() {
 	app.location$.subscribe(function(url) {
 		Countly.track_pageview(url.pathname); // works with SPA/instant feature
 	});
+
+	app.document$.subscribe(function () {
+		let tables = document.querySelectorAll("article table");
+		tables.forEach(function (table) {
+			new Tablesort(table);
+		});
+	})
+
 };
 
 function analytics_opt_out() {

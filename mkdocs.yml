@@ -16,6 +16,7 @@ copyright: '&copy; 2020 Isaac Saunders'
 extra_css:
     - stylesheets/extra.css
 extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
     - javascripts/extra.js
 
 theme:
@@ -65,14 +66,15 @@ plugins:
 
 # Extensions
 markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
   - toc:
       permalink: true
   - footnotes
   - meta
-# pymd
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -86,6 +88,7 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
