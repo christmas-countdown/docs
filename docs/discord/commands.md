@@ -111,6 +111,12 @@ Get premium by donating.
 
 ### locales
 
+List all valid locales.
+
+|Premium?|Aliases|Usage|
+|---|---|---|
+|no|`locales`, `languages`|[`locales`](/locales)|
+
 ### server
 
 Modify server settings.
