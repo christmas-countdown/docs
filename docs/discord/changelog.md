@@ -2,7 +2,7 @@
 
 ## v3.0.0
 
-> October 31st, 2020
+> October 24th, 2020
 
 The third generation of the original Christmas Countdown bot for Discord.
 
