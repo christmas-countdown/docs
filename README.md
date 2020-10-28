@@ -6,11 +6,13 @@ Logo icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [Fla
 
 ## [Website](https://github.com/eartharoid/ChristmasCountdownWebsite)
 
-[christmascountdown.live](https://www.christmascountdown.live)
+- [GitHub: eartharoid/ChristmasCountdownWebsite](https://github.com/eartharoid/ChristmasCountdownWebsite)
+- [christmascountdown.live](https://www.christmascountdown.live)
 
 ## [Discord bot](https://github.com/eartharoid/ChristmasCountdownBot)
 
-[Add to Discord](https://www.christmascountdown.live/invite)
+- [GitHub: eartharoid/ChristmasCountdownBot](https://github.com/eartharoid/ChristmasCountdownBot)
+- [Add to Discord](https://www.christmascountdown.live/invite)
 
 ## API
 
