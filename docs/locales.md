@@ -13,7 +13,7 @@ The default locale is `en-GB`. The file names of each of the files in [this dire
 
 ### Don't see your language?
 
-If your the bot hasn't been translated to your language yet, you can translate the `en-GB` file and submit a pull request on GitHub (or send it to me on [Discord](https://go.eartharoid.me/discord)/by [email](mailto:contact@eartharoid.me) if you don't have Discord).
+If your the bot hasn't been translated to your language yet, you can translate the `en-GB` file and submit a pull request on GitHub (or send it to me on [Discord](https://go.eartharoid.me/discord)/by [email](mailto:contact@eartharoid.me)).
 
 **Please read [this](https://github.com/eartharoid/ChristmasCountdownBot/blob/master/.github/CONTRIBUTING.md#localisation)** if you want contribute by translating. Command names/aliases should not be translated.
 
