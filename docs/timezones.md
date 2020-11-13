@@ -7,7 +7,7 @@ description: A list of all valid timezones
 
 You can search by your city [here](https://www.timeanddate.com/time/map/).
 
-See [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) for a full list of timezones.
+**For a full list of all supported timezones, [click here](https://github.com/eartharoid/ChristmasCountdownBot/blob/master/timezones.txt).**
 
 ## Discord bot
 
