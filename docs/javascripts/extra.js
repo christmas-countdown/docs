@@ -15,12 +15,21 @@ window.onload = function() {
 		'widgets': ['5f762b92c8a81567c38420c0']
 	});
 
-	app.location$.subscribe(function(url) {
+	// Countly.get_available_feedback_widgets(function (countlyPresentableFeedback, err) {
+	// 	if (err) {
+	// 		console.log(err);
+	// 		return;
+	// 	}
+	// 	let countlyFeedbackWidget = countlyPresentableFeedback[0];		
+	// 	Countly.present_feedback_widget(countlyFeedbackWidget);
+	// });
+
+	app.location$.subscribe(function (url) {
 		Countly.track_pageview(url.pathname); // works with SPA/instant feature
 	});
 
 	app.document$.subscribe(function () {
-		let tables = document.querySelectorAll("article table");
+		let tables = document.querySelectorAll('article table');
 		tables.forEach(function (table) {
 			new Tablesort(table);
 		});
