@@ -43,11 +43,13 @@ Set the countdown mention role with with `x!server set role: <role>`.
 
 `<channel>` Can be a role mention, name, or ID.
 
-## auto
+## autotoggle
 
 :star: This is a premium option.
 
-Enable or disable `auto` with `x!server set auto: <boolean>`.
+Enable or disable `autotoggle` with `x!server set autotoggle: <boolean>`.
+
+When this is set to `true`, the value of the `enabled` option will automatically be toggled on the 1st December and 26th December.
 
 `<boolean>` can be:
 

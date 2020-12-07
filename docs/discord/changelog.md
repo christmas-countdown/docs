@@ -16,4 +16,4 @@ Major changes:
 - [X] Added server & user locales
 - [X] New server & user configuration commands
 <!-- - [X] Added Christmas music radio -->
-- [X] :star: New `auto` setting for premium guilds
+- [X] :star: New `autotoggle` setting for premium guilds
