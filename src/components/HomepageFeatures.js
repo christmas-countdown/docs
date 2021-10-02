@@ -16,7 +16,7 @@ const FeatureList = [
 	},
 	{
 		title: 'API',
-		link: '/api/introduction',
+		link: '/api',
 		Svg: require('../../static/img/undraw_programmer_imem.svg').default,
 		description: (
 			<>
