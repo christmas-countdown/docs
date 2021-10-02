@@ -1,20 +1,19 @@
-# Christmas Countdown
+# Christmas Countdown Docs
 
-Documentation and shared resources (logos) for all Christmas Countdown projects - website, Discord bot, and API.
+Documentation and shared resources for all of the Christmas Countdown projects.
 
 Logo icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [FlatIcon](https://www.flaticon.com/).
 
-## [Website](https://github.com/christmas-countdown/website)
+### Installation
 
-- [GitHub: christmas-countdown/website](https://github.comchristmas-countdown/website)
-- [christmascountdown.live](https://www.christmascountdown.live)
+```
+$ npm install
+```
 
-## [Discord bot](https://github.com/eartharoid/ChristmasCountdownBot)
+### Local Development
 
-- [GitHub: christmas-countdown/bot](https://github.com/christmas-countdown/bot)
-- [Add to Discord](https://www.christmascountdown.live/invite)
+```
+$ npm start
+```
 
-## [API](https://github.com/christmas-countdown/api)
-
-- [GitHub: christmas-countdown/api](https://github.com/christmas-countdown/api)
-- [Docs](https://docs.christmascountdown.live/api)
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
