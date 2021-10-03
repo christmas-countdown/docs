@@ -56,6 +56,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 		[
 			'@docusaurus/plugin-content-docs',
 			{
+				editUrl: 'https://github.com/christmas-countdown/docs/edit/main/',
 				id: 'other',
 				path: 'docs/other',
 				routeBasePath: 'other',
