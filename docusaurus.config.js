@@ -150,4 +150,5 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 				darkTheme: darkCodeTheme,
 			},
 		}),
+	themes: ['@docusaurus/theme-live-codeblock'],
 });
