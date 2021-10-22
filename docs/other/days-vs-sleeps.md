@@ -29,28 +29,6 @@ The number of days and sleeps left are both calculated by dividing the number of
 
 ### Calculations
 
-Here's a JavaScript example:
+Here's an example:
 
-```jsx live
-() => {
-	const seconds_in_one_day = 86400;
-
-	const now = new Date();
-	const christmas = new Date(`December 25, ${now.getFullYear()} 00:00:00`);
-
-	const difference_in_milliseconds = christmas - now;
-	const difference_in_seconds = difference_in_milliseconds / 1000;
-
-	const unrounded = difference_in_seconds / seconds_in_one_day;
-	const sleeps = Math.ceil(unrounded); // round up
-	const days = Math.floor(unrounded); // round down 
-
-	return (
-		<ul>
-			<li>Unrounded: <code>{unrounded}</code></li>
-			<li>Rounded <strong>up</strong>: <code>{sleeps} sleeps</code></li>
-			<li>Rounded <strong>down</strong>: <code>{days} days</code></li>
-		</ul>
-	);
-}
-```
+<iframe width="100%" height="300" src="//jsfiddle.net/eartharoid/svjygb4f/61/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
