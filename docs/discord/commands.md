@@ -167,7 +167,7 @@ The available commands are shown in this screenshot of the `help` command.
 |Name|Type|Required?|Example|Description|
 |-|-|-|-|-|
 |`locale`|String|no|`es-ES`|Your locale (language)|
-|`timezone`|String|no|`EST`|Your [timezone](../timezones)|
+|`timezone`|String|no|`EST`|Your [timezone](./timezones)|
 
 #### `reset`
 
