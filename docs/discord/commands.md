@@ -134,7 +134,7 @@ The available commands are shown in this screenshot of the `help` command.
 |`enabled`|Boolean|no|`True`|Enable the countdown? (Use [`/toggle`](#toggle) shortcut)|
 |`locale`|String|no|`es-ES`|The locale (language) for the server|
 |`mention`|Role|no|`@Christmas`|**Premium only** - The role to mention with the countdown message every morning|
-|`timezone`|String|no|`EST`|The [timezone](../timezones) for the server|
+|`timezone`|String|no|`EST`|The [timezone](./timezones) for the server|
 
 #### `reset`
 

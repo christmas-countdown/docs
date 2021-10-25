@@ -5,7 +5,7 @@
 3. Type **`/toggle`** to enable the countdown
 
 :::info
-  If the majority of your server members are from the same place you should **[change the server timezone](../timezones)**.
+  If the majority of your server members are from the same place you should **[change the server timezone](./timezones)**.
 :::
 
 To disable the countdown after Christmas, simply type **`/toggle`** again.
