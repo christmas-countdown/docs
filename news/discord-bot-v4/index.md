@@ -17,6 +17,7 @@ In the code, almost everything. The things you might notice:
 - New `joke` command (try it!)
 - New `months` command
 - New `radio` command
+- New `weekday` command
 - New `countdown` command (creates the countdown webhook)
 - Removed `locales` command (now included as slash command options)
 - Removed `timezones` command as the settings commands now accept more inputs and will try to guess what you mean

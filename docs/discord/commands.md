@@ -66,6 +66,12 @@ The available commands are shown in this screenshot of the `help` command.
 |-|
 |Get the total time left until Christmas in your timezone|
 
+### `weekday`
+
+|Description|
+|-|
+|Get the day of the week that Christmas Day is on|
+
 ### `weeks`
 
 |Description|
