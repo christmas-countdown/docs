@@ -10,9 +10,17 @@ Install with npm/pnpm/yarn:
 
 ## Usage
 
+### Example
+
 ```js
 const christmas = require('@eartharoid/christmas');
 console.log(christmas.getDays());
 ```
 
-See [christmas-countdown/christmas.js](https://github.com/christmas-countdown/christmas.js) for full documentation.
+### API
+
+**View the JSDoc documentation at [js.docs.christmascountdown.live](https://js.docs.christmascountdown.live/module-@eartharoid_christmas).**
+
+:::info
+The API reference is available [here](https://js.docs.christmascountdown.live/module-@eartharoid_christmas).
+:::
