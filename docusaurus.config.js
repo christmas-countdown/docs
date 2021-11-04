@@ -151,4 +151,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 			},
 		}),
 	themes: ['@docusaurus/theme-live-codeblock'],
+	scripts: [
+		{
+			src:
+				'https://umami.eartharoid.me/umami.js',
+			async: true,
+			defer: true,
+			'data-website-id': 'b60ef8cb-f7d2-4d5b-96fe-e0714d7092cd',
+			'data-domains': 'christmascountdown.live,www.christmascountdown.live',
+		},
+	],
 });
