@@ -31,15 +31,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 				},
 			}),
 		],
-		[
-			'redocusaurus',
-			{
-				specs: [{
-					specUrl: 'https://cdn.statically.io/gh/christmas-countdown/api/main/swagger/openapi.json',
-					routePath: 'api/pine'
-				}],
-			}
-		],
 	],
 
 	plugins: [
