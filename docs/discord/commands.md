@@ -110,6 +110,18 @@ The available commands are shown in this screenshot of the `help` command.
 |-|
 |Get connection information|
 
+### `suggest`
+
+|Description|
+|-|
+|Submit a suggestion|
+
+#### Options
+
+|Name|Type|Required?|Example|Description|
+|-|-|-|-|-|
+|`suggestion`|String|yes|`Add a command that ...`|Your suggestion|
+
 ## Settings
 
 ### `countdown`
